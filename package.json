@@ -1,0 +1,19 @@
+{
+  "name": "vercel-loki-mdw",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "bun index.ts",
+    "lint": "bunx biome lint .",
+    "format": "bunx biome format ."
+  },
+  "devDependencies": {
+    "bun": "latest",
+    "biome": "latest",
+    "@types/bun": "latest"
+  },
+  "module": "index.ts",
+  "type": "module",
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  }
+}

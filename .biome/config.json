@@ -1,0 +1,13 @@
+{
+  "$schema": "https://biomejs.dev/schemas/config.json",
+  "linter": {
+    "enabled": true
+  },
+  "formatter": {
+    "enabled": true
+  },
+  "files": {
+    "include": ["./**/*.ts"],
+    "exclude": ["node_modules", "dist", "bun.lockb", ".biome", ".git"]
+  }
+}
